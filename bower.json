@@ -1,0 +1,11 @@
+{
+  "name": "scholartree",
+  "version": "0.0.1",
+  "dependencies": {
+    "bootstrap": "3.3.x",
+    "d3": "3.5.x",
+    "font-awesome": "4.3.x",
+    "jquery": "2.1.x",
+    "lodash": "3.6.x"
+  }
+}

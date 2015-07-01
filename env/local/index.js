@@ -15,6 +15,6 @@ module.exports = {
 		public_cert: fs.readFileSync(__dirname + '/ssl/localhost.cert', 'utf-8')
 	},
 	mongo: {
-		uri: process.env.MONGO_URI || 'mongodb://mongo/scholartree'
+		uri: process.env.MONGO_URI || 'mongodb://localhost/scholartree'
 	}
 };

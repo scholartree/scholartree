@@ -1,13 +1,13 @@
 #################################################
-## Keeping production server out of public repo
+## Keeping production env out of public repo
 
 env/release
 
 
 #################################################
-## Gulp
+## Browserify
 
-client/build
+client/bundle.js
 
 
 #################################################

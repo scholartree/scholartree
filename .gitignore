@@ -1,4 +1,10 @@
 #################################################
+## Keeping production server out of public repo
+
+env/release
+
+
+#################################################
 ## Gulp
 
 client/build

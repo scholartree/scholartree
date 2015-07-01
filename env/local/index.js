@@ -11,10 +11,10 @@ module.exports = {
 	},
 	https: {
 		port: process.env.HTTPS_PORT || 2222,
-		private_key: fs.readFileSync(__dirname + '/ssl/localhost-key.pem', 'utf-8'),
-		public_cert: fs.readFileSync(__dirname + '/ssl/localhost-cert.pem', 'utf-8')
+		private_key: fs.readFileSync(__dirname + '/ssl/localhost.key', 'utf-8'),
+		public_cert: fs.readFileSync(__dirname + '/ssl/localhost.cert', 'utf-8')
 	},
 	mongo: {
-		uri: process.env.MONGO_URI || 'mongodb://localhost/scholartree'
+		uri: process.env.MONGO_URI || 'mongodb://mongo/scholartree'
 	}
 };

@@ -17,8 +17,7 @@ module.exports = require(
         __dirname,
         '..',
         '..',
-        '..',
-        'scholartree-env',
+        'env',
         env
     )
 );

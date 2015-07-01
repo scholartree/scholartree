@@ -1,11 +1,11 @@
 {
-  "name": "wikitree",
+  "name": "scholartree",
   "version": "0.1.1",
   "license": "MIT",
-  "author": "Team Wikitree",
+  "author": "Team Scholartree",
   "description": "A web-based research tool, a visual mapping companion for your Wikipedia wanderings.",
   "keywords": [
-    "Wikitree",
+    "Scholartree",
     "Wikipedia",
     "Tree",
     "Graph",
@@ -19,13 +19,13 @@
     "Productivity",
     "Tool"
   ],
-  "homepage": "https://wikitree.website",
+  "homepage": "https://scholartree.link",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wikitree-website/wikitree.git"
+    "url": "https://github.com/scholartree/scholartree.git"
   },
   "bugs": {
-    "url": "https://github.com/wikitree-website/wikitree/issues"
+    "url": "https://github.com/scholartree/scholartree/issues"
   },
   "engines": {
     "node": "0.12.x"

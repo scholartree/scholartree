@@ -1,4 +1,4 @@
-# Contributing to Wikitree
+# Contributing to Scholartree
 
 ##### The Rules:
 1. No pushes to upstream/master
@@ -9,15 +9,15 @@
 ##### Process:
 When you want to add a new feature:
 
-1) Fork wikitree-website/wikitree on your GitHub account and clone your fork
+1) Fork scholartree/scholartree on your GitHub account and clone your fork
 ```
-git clone https://github.com/<your_username>/wikitree
+git clone https://github.com/<your_username>/scholartree
 ```
 
-2) Add wikitree-website/wikitree as upstream remote repository.  This way, you can
+2) Add scholartree/scholartree as upstream remote repository.  This way, you can
 grab changes as they are merged into production
 ```
-git remote add upstream https://github.com/wikitree-website/wikitree.git
+git remote add upstream https://github.com/scholartree/scholartree.git
 ```
 
 3) Make a branch to work on your feature
@@ -44,7 +44,7 @@ git commit -m "Commit message for entire branch" <list_of_files | --all>
 At this point, it will only look like a **single commit** has been applied on top of
 master: the feature you developed.
 
-6) When you are satisfied with your work, open a pull request on GitHub on wikitree-website/wikitree comparing your fork's `wikitree:master` with `wikitree-website/wikitree:master`.
+6) When you are satisfied with your work, open a pull request on GitHub on scholartree/scholartree comparing your fork's `scholartree:master` with `scholartree/scholartree:master`.
 
 7) Get together with another developer and have them review your code.  When they sign off on it, they will merge your code in and **both of you** will be responsible for the code.  The merge can be done in pull request's comment section next to the build status.
 

@@ -1,16 +1,16 @@
-Wikitree
+Scholartree
 ===========
 A web-based research tool, a visual mapping companion for your Wikipedia wanderings
 
-[![Wikitree screenshot](http://i.imgur.com/16H2cSY.png)](https://wikitree.website/)
+[![Scholartree screenshot](http://i.imgur.com/16H2cSY.png)](https://scholartree.link/)
 
 ## Installation
 
 **Before you start&mdash;** install `mongo`, `redis`, `node`, `gulp`, and `bower`
 
 Fork & clone both the main repo and the env repo (these are designed to live as sibling directories)
-- Main repo: https://github.com/wikitree-website/wikitree
-- Env repo: https://github.com/wikitree-website/wikitree-env
+- Main repo: https://github.com/scholartree/scholartree
+- Env repo: https://github.com/scholartree/scholartree-env
 
 In the main repo, run:
 ```

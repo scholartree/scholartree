@@ -1,46 +1,29 @@
 Scholartree
 ===========
-A web-based research tool, a visual mapping companion for your Wikipedia wanderings
+A web-based research tool, a visual mapping companion for your scholarly wanderings
 
-[![Scholartree screenshot](http://i.imgur.com/16H2cSY.png)](https://scholartree.link/)
+## Running
 
-## Installation
+### Development
 
-**Before you start&mdash;** install `mongo`, `redis`, `node`, `gulp`, and `bower`
-
-Fork & clone both the main repo and the env repo (these are designed to live as sibling directories)
-- Main repo: https://github.com/scholartree/scholartree
-- Env repo: https://github.com/scholartree/scholartree-env
-
-In the main repo, run:
+Starting
 ```
-$ npm install
-```
-(which should also trigger `bower install`)
-
-## Commands
-
-### Building client JS & CSS
-
-Build once
-```
-$ gulp build
+$ npm run dev
 ```
 
-Or, build & rebuild on change
+Stopping
 ```
-$ gulp watch
-```
-
-### Starting node server
-
-Start once
-```
-$ node server/server.js
+$ ctrl+C
 ```
 
-Or, start & restart on change
+### Production
+
+Starting
 ```
-$ nodemon server/server.js
+$ npm run prod
 ```
 
+Stopping
+```
+$ forever stop 0
+```
